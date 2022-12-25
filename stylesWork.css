@@ -328,6 +328,7 @@ ion-icon {
     body>div aside:last-of-type ol {
         height: 30vh;
         padding: 4em 4em;
+        justify-content: center;
     }
     body>div aside:last-of-type ol li {
         font-size: 1.25em;
@@ -360,14 +361,17 @@ ion-icon {
     }
 
 
+    main section:first-of-type {
+        flex-direction: column;
+    }
     main section:first-of-type p:first-of-type {
         font-size: 2em;
-        max-width: 45vw;
+        max-width: 90vw;
         font-style: italic;
     }
     main section:first-of-type p:nth-of-type(2) {
         font-size: 1.3em;
-        max-width: 53vw;
+        max-width: 90vw;
     }
 
 

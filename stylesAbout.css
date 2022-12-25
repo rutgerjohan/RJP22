@@ -240,7 +240,7 @@ main p a {
     color: var(--color-yellow);
 }
 main section:nth-of-type(2) p {
-    text-shadow: 0 0 32px white;
+    text-shadow: 0 0 32px var(--color-lightMode);
     color: transparent;
 }
 
@@ -392,6 +392,7 @@ ion-icon {
     body>div aside:last-of-type ol {
         height: 30vh;
         padding: 4em 4em;
+        justify-content: center;
     }
     body>div aside:last-of-type ol li {
         font-size: 1.25em;

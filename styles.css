@@ -91,6 +91,7 @@ body>div.menuAppear {
     z-index: 10;
     position: fixed;
     top:0;
+    overflow: hidden;
 }
 header.menuAppear {
     color: var(--color-darkMode)
@@ -489,6 +490,7 @@ ion-icon {
     body>div aside:last-of-type ol {
         height: 30vh;
         padding: 4em 4em;
+        justify-content: center;
     }
     body>div aside:last-of-type ol li {
         font-size: 1.25em;
